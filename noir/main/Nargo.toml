@@ -1,0 +1,8 @@
+[package]
+name = "main2"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.25.0"
+
+[dependencies]
+proof = { tag = "main", git = "https://github.com/aragonzkresearch/noir-trie-proofs", directory = "lib" }
